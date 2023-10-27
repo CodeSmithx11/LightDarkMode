@@ -1,0 +1,38 @@
+/* Default (light) mode styles */
+body {
+    background-color: #ffffff; /* Light background color */
+    color: #333333; /* Dark text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .dark-mode {
+    /* Dark mode styles */
+    background-color: #333333; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* Style for buttons (optional) */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+/* Style for the container to center the content */
+.center-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Adjust this to center vertically within the viewport */
+  }
+  
+  /* Style for the button */
+  button {
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: 2px solid #333; /* Border style */
+    border-radius: 20px; /* Rounded border */
+    background-color: #f0f0f0; /* Button background color */
+    font-size: 16px; /* Font size */
+    margin: 5px; /* Add some spacing between buttons */
+  }
+  
+  
